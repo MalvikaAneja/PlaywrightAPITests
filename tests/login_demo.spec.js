@@ -9,7 +9,7 @@ test('Demo login test1', async ({page}) => {
     await page.locator('id=log-in').click()
 })
 
-test.only('Demo login test2', async ({page}) => {
+test('Demo login test2', async ({page}) => {
     await page.goto('https://opensource-demo.orangehrmlive.com/')
     //await page.pause()
     await page.locator('name=username').fill('Admin')
